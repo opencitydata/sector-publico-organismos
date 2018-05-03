@@ -9,6 +9,7 @@ Por tanto, se pretende con esto llevar un control de cambios entre versiones.
 
 ### Lista de cambios:
 * [1/03/2018] Añadido fichero de la ontología.
+* [03/05/2018] Aceptado pull request para la generación de documentación [[OnToology update #2]](https://github.com/opencitydata/sector-publico-organismos/pull/2)
 
 A continuación se muestran también los datos originales obtenidos del grupo de trabajo OjoAlData100, que identificó este vocabulario como uno de los prioritarios.
 
