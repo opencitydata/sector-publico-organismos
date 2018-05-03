@@ -136,7 +136,7 @@
 
 	<owl:ObjectProperty rdf:about="&orges;ambitoCompetencias">
 		<rdfs:label xml:lang="es">Ámbito de Competencias</rdfs:label>
-		<dct:issued>2015-02-18</dct:issued>
+		<dct:issued>2015-02-19</dct:issued>
 		<rdfs:comment xml:lang="es">Ámbito territorial de ejercicio de competencias de una organización.</rdfs:comment>
 		<rdfs:isDefinedBy rdf:resource="http://datos.gob.es/def/sector-publico/organizacion#"/>
 		<rdfs:range>
