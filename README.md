@@ -1,41 +1,22 @@
-# sector-publico-organismos
-Este repositorio contiene el material relacionado con el vocabulario sobre organismos para España, que se identifica (y publica) en la siguiente URI:
+Este repositorio contiene el material relacionado con el vocabulario sobre organismos para España, que a partir del 25 de julio de 2018 se comenzará a identificar (y publicar) en la siguiente URI:
 
-http://datos.gob.es/def/sector-publico/organizacion ***(no disponible)***
+http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion
 
-El historial de cambios, así como los issues que se generaron para esta primera versión, fueron gestionados en el repositorio general sobre datos abiertos que se encuentra en https://github.com/opencitydata/vocabularios-datos-abiertos, y que se encuentra en estado *deprecated*, dado que posterioremente se decidió crear un repositorio en GitHub por cada uno de los vocabularios con los que se estaba trabajando, por comodidad.
+Previamente este vocabulario se identificaba mediante la URI http://datos.gob.es/def/sector-publico/organizacion, que se generó como resultado del trabajo encargado por el Ministerio de Hacienda y Administraciones Públicas para la generación de RDF sobre el directorio DIR3 (se puede ver la noticia en http://datos.gob.es/es/noticia/publicado-el-contenido-del-directorio-comun-dir3-en-formato-abierto-y-reutilizable-rdf-xml). A su vez, esta implementación se basó en el documento de trabajo del grupo W3C Open Data Spain alojado en https://docs.google.com/document/d/1W3ki8kY4P8_Z_gSWOHtdOgYLBwMQMSPj5XxhJBGiDlM
 
-Por tanto, se pretende con esto llevar un control de cambios entre versiones.
+Las versiones iniciales de este vocabulario fueron mantenidas en el repositorio general sobre vocabularios de datos abiertos https://github.com/opencitydata/vocabularios-datos-abiertos, que actualmente se encuentra en estado *deprecated*, dado que en 2018 se ha decidido crear un repositorio en GitHub por cada uno de los vocabularios con los que se trabaja en la iniciativa global OpenCityData.
 
-### Lista de cambios:
+### Lista de cambios
 * [1/03/2018] Añadido fichero de la ontología.
 * [03/05/2018] Aceptado pull request para la generación de documentación [[OnToology update #2]](https://github.com/opencitydata/sector-publico-organismos/pull/2)
+* [25/07/2018] Modificación de la implementación de la ontología para facilitar la generación de datos no sólo de DIR3, sino también de los organigramas de los ayuntamientos. Estos son los cambios más representativos de esta versión:
+* * Modificación de la URI de http://datos.gob.es/def/sector-publico/organizacion a http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion
+* * Eliminación de owl:import innecesarios, como el de esadm (territorio) y SKOS.
+* * Actualización de skos:ConceptScheme utilizados. Se han actualizado los de tipo de entidad (http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad), nivel de administración (http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/nivel-administracion) y estado de la entidad (http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad).
+* * Eliminación de skos:ConceptScheme innecesarios, como ServicioOficina y AmbitoTerritorial.
+* * Actualización de rangos incorrectos en las Object Properties que tenían referencias a skos:ConceptScheme.
+* * Modificación de los nombres de algunas propiedades, como estado, que ahora se convierte a estadoEntidad
+* * Reorganización de la jerarquía de propiedades (unidadRaiz es ahora subclase de org:unitOf)
 
-A continuación se muestran también los datos originales obtenidos del grupo de trabajo OjoAlData100, que identificó este vocabulario como uno de los prioritarios.
-
-### Núm
-71
-### Clasificación NTI
-Sector público
-### Conjunto de datos
-Organismos
-### Comentarios
-La ontología DIR3 está publicada en https://github.com/opencitydata/vocabularios-datos-abiertos/blob/master/sector-publico/organizacion ***(no disponible)***
-### Valor (De 1 peor a 5 mejor)
-5
-### Transparencia
-Transparencia
-### Descripción
-Ley transparencia. Utilizaría la codificación DIR3
-### Campos minimos
-Denominación, código DIR3, código DIR3 organismo superior, código DIR3 unidad raiz, dirección, código postal, municipio, provincia, teléfono, fax, mail
-### Tamaño de ciudad
-Todas
-### Tipo ciudad (costa, montaña, capital de provincia, …etc)
-Todas
-### Frec. Actualización minima
-Diaria
-### Prioridad (usos)
-Aplicaciones empresariales y de análisis
-### Afectado LOPD
-Hay organismos que deben dar su permiso para la publicación de ciertos datos (universidades, ...)
+### Cambios propuestos
+Por un lado, se trabajará en mejorar la documentación del vocabulario, y también se modificarán más elementos teniendo en cuenta las implantaciones realizadas por diversos ayuntamientos
