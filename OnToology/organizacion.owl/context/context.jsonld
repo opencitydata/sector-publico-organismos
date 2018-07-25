@@ -1,0 +1,121 @@
+{
+  "@context" : {
+    "Organization" : {
+      "@id" : "http://www.w3.org/ns/org#Organization"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "Oficina" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#Oficina"
+    },
+    "unidadRaiz" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#unidadRaiz",
+      "@type" : "@id"
+    },
+    "otroContacto" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#otroContacto"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "subOrganizationOf" : {
+      "@id" : "http://www.w3.org/ns/org#subOrganizationOf",
+      "@type" : "@id"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "disposicionLegal" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#disposicionLegal"
+    },
+    "horarioAtencion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#horarioAtencion"
+    },
+    "FormalOrganization" : {
+      "@id" : "http://www.w3.org/ns/org#FormalOrganization"
+    },
+    "observacionBaja" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#observacionBaja",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "nivelJerarquico" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#nivelJerarquico",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "GovernmentalAdministrativeRegion" : {
+      "@id" : "http://dbpedia.org/ontology/GovernmentalAdministrativeRegion"
+    },
+    "diasInhabiles" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#diasInhabiles"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/elements/1.1/rights"
+    },
+    "UnidadOrganica" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#UnidadOrganica"
+    },
+    "UGEP" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#UGEP"
+    },
+    "EntidadDerechoPublico" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#EntidadDerechoPublico"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/terms/identifier"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "tipoEntidad" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#tipoEntidad",
+      "@type" : "@id"
+    },
+    "ambitoCompetencias" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#ambitoCompetencias",
+      "@type" : "@id"
+    },
+    "ConceptScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "nivelAdministracion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#nivelAdministracion",
+      "@type" : "@id"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/terms/date"
+    },
+    "identificadorExterno" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#identificadorExterno"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "OrganizationalUnit" : {
+      "@id" : "http://www.w3.org/ns/org#OrganizationalUnit"
+    },
+    "hasFormat" : {
+      "@id" : "http://purl.org/dc/terms/hasFormat"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "estadoEntidad" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#estadoEntidad",
+      "@type" : "@id"
+    }
+  }
+}
