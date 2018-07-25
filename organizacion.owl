@@ -29,13 +29,13 @@
         <dct:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion.rdf"/>
         <dc:contributor>María Jesús Fernández Ruíz</dc:contributor>
         <dc:contributor>Imanol Argüeso</dc:contributor>
-        <vann:preferredNamespacePrefix>orges</vann:preferredNamespacePrefix>
         <dc:contributor>Martín Alvarez</dc:contributor>
+        <vann:preferredNamespacePrefix>orges</vann:preferredNamespacePrefix>
         <dct:issued>2015-02-19</dct:issued>
         <dc:contributor>Carlos Jiménez</dc:contributor>
         <rdfs:comment xml:lang="es">Esta ontología extiende la ontología del W3C para organizaciones (W3C Organization Ontology), para la representación de organizaciones públicas en España, así como aspectos relacionados con los organigramas dentro de dichas organizaciones. Está basada en una versión previa de la ontología cuya URI era http://datos.gob.es/def/sector-publico/organizacion y que no llegó a ser publicada</rdfs:comment>
-        <dc:rights>Creative Commons 4.0 (BY)</dc:rights>
         <dct:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion.html"/>
+        <dc:rights>Creative Commons 4.0 (BY)</dc:rights>
         <dct:date>2018-07-25</dct:date>
         <dc:contributor>David Rey Jordán</dc:contributor>
     </owl:Ontology>
@@ -93,7 +93,7 @@
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/estado-entidad"/>
+                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -116,7 +116,7 @@
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion"/>
+                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/nivel-administracion"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -139,7 +139,7 @@
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/tipo-entidad"/>
+                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -379,25 +379,25 @@ Probablemente esta clase será eliminada en posteriores versiones del vocabulari
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/estado-entidad -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/estado-entidad">
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/nivel-administracion -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion">
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/nivel-administracion">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/tipo-entidad -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/tipo-entidad">
+    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
     <rdf:Description>
