@@ -10,13 +10,15 @@ Las versiones iniciales de este vocabulario fueron mantenidas en el repositorio 
 * [1/03/2018] Añadido fichero de la ontología.
 * [03/05/2018] Aceptado pull request para la generación de documentación [[OnToology update #2]](https://github.com/opencitydata/sector-publico-organismos/pull/2)
 * [25/07/2018] Modificación de la implementación de la ontología para facilitar la generación de datos no sólo de DIR3, sino también de los organigramas de los ayuntamientos. Estos son los cambios más representativos de esta versión:
-* * Modificación de la URI de http://datos.gob.es/def/sector-publico/organizacion a http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion
-* * Eliminación de owl:import innecesarios, como el de esadm (territorio) y SKOS.
-* * Actualización de skos:ConceptScheme utilizados. Se han actualizado los de tipo de entidad (http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad), nivel de administración (http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/nivel-administracion) y estado de la entidad (http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad).
-* * Eliminación de skos:ConceptScheme innecesarios, como ServicioOficina y AmbitoTerritorial.
-* * Actualización de rangos incorrectos en las Object Properties que tenían referencias a skos:ConceptScheme.
-* * Modificación de los nombres de algunas propiedades, como estado, que ahora se convierte a estadoEntidad
-* * Reorganización de la jerarquía de propiedades (unidadRaiz es ahora subclase de org:unitOf)
+  * Modificación de la URI de http://datos.gob.es/def/sector-publico/organizacion a http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion
+  * Eliminación de owl:import innecesarios, como el de esadm (territorio) y SKOS.
+  * Actualización de skos:ConceptScheme utilizados. Se han actualizado los de tipo de entidad (http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad), nivel de administración (http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/nivel-administracion) y estado de la entidad (http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad).
+  * Eliminación de skos:ConceptScheme innecesarios, como ServicioOficina y AmbitoTerritorial.
+  * Actualización de rangos incorrectos en las Object Properties que tenían referencias a skos:ConceptScheme.
+  * Modificación de los nombres de algunas propiedades, como estado, que ahora se convierte a estadoEntidad
+  * Reorganización de la jerarquía de propiedades (unidadRaiz es ahora subclase de org:unitOf)
 
 ### Cambios propuestos
 Por un lado, se trabajará en mejorar la documentación del vocabulario, y también se modificarán más elementos teniendo en cuenta las implantaciones realizadas por diversos ayuntamientos
+
+Este vocabulario está siendo utilizado en el contexto de la actuación sobre datos abiertos del proyecto "Plataforma de Gobierno Abierto, Colaborativa e Interoperable" (http://datos.gob.es/es/noticia/plataforma-de-gobierno-abierto-colaborativa-e-interoperable). Dentro de los objetivos específicos de este proyecto no se encuentra el desarrollo, actualización o validación de este vocabulario, aunque no se descarta que puedan realizarse cambios cuando los conjuntos de datos correspondientes tengan que ser expuestos por medio de la API de datos abiertos que se está desarrollando en el proyecto. 
