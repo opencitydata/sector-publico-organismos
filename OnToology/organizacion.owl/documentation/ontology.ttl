@@ -20,7 +20,7 @@
                                                                                                                            "María Jesús Fernández Ruíz"^^xsd:string ,
                                                                                                                            "Oscar Corcho"^^xsd:string ,
                                                                                                                            "Toño Velasco"^^xsd:string ;
-                                                                             <http://purl.org/dc/elements/1.1/rights> "Creative Commons 4.0 (BY)"^^xsd:string ;
+                                                                             <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)"^^xsd:string ;
                                                                              <http://purl.org/dc/elements/1.1/title> "Ontología sobre organizaciones públicas (y sus organigramas) en España"@es ;
                                                                              <http://purl.org/dc/terms/date> "2018-07-25"^^xsd:string ;
                                                                              <http://purl.org/dc/terms/hasFormat> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion.html> ,
@@ -88,6 +88,7 @@
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#tipoEntidad
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#tipoEntidad> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:subPropertyOf <http://www.w3.org/ns/org#classification> ;
                                                                                        rdfs:domain <http://www.w3.org/ns/org#Organization> ;
                                                                                        rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                                                                          [ rdf:type owl:Restriction ;
@@ -137,11 +138,7 @@
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#disposicionLegal
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#disposicionLegal> rdf:type owl:DatatypeProperty ;
-                                                                                            rdfs:domain [ rdf:type owl:Class ;
-                                                                                                          owl:unionOf ( <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#UnidadOrganica>
-                                                                                                                        <http://www.w3.org/ns/org#FormalOrganization>
-                                                                                                                      )
-                                                                                                        ] ;
+                                                                                            rdfs:domain <http://www.w3.org/ns/org#Organization> ;
                                                                                             <http://purl.org/dc/terms/issued> "2015-02-19"^^xsd:string ;
                                                                                             rdfs:comment """Identificación de la Disposición Legal que regula las competencias de la organización.
 Ejemplo: En el caso del BOE se haría referencia al RD de creación del Organismo como Agencia Estatal: «REAL DECRETO 1495/2007 por el que se crea la Agencia Estatal Boletín Oficial del Estado y se aprueba su estatuto»."""@es ;
@@ -182,12 +179,7 @@ Para la raíz de un nivel de administración, este campo deberá ser 0. Para la 
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#observacionBaja
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#observacionBaja> rdf:type owl:DatatypeProperty ;
-                                                                                           rdfs:domain [ rdf:type owl:Class ;
-                                                                                                         owl:unionOf ( <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#UnidadOrganica>
-                                                                                                                       <http://www.w3.org/ns/org#FormalOrganization>
-                                                                                                                     )
-                                                                                                       ] ;
-                                                                                           rdfs:range rdfs:Literal ;
+                                                                                           rdfs:domain <http://www.w3.org/ns/org#Organization> ;
                                                                                            <http://purl.org/dc/terms/issued> "2015-02-19"^^xsd:string ;
                                                                                            rdfs:comment "Observaciones relacionadas con la baja de la organización."@es ;
                                                                                            rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#> ;
@@ -215,6 +207,7 @@ Para la raíz de un nivel de administración, este campo deberá ser 0. Para la 
                                                                                                  rdfs:subClassOf <http://www.w3.org/ns/org#FormalOrganization> ;
                                                                                                  <http://purl.org/dc/terms/issued> "2015-19-02"^^xsd:string ;
                                                                                                  rdfs:comment """Organismo creado para satisfacer necesidades de interés general, excluidos los de carácter mercantil o industrial; que tenga personalidad jurídica; que su actividad se financie mayoritariamente con fondos públicos o que su gestión esté sometida al control público o bien que más de la mitad de los miembros de su órgano de administración, de dirección o vigilancia, sean nombrados por el sector público.
+
 Morales, F. J. (2007). La Contratación del Sector Público. Recuperado el 17 de febrero de 2015, de https://books.google.es/books?id=RozAMdGDMDIC&pg=PA1&lpg=PA1&dq=la+contratación+del+sector+publico+f.+javier+escrihuela"""@es ;
                                                                                                  rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#> ;
                                                                                                  rdfs:label "Entidad de Derecho Público"@es .
@@ -274,7 +267,7 @@ Probablemente esta clase será eliminada en posteriores versiones del vocabulari
                                                                                                  <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 
 
-_:genid19 <http://xmlns.com/foaf/0.1/mbox> "asun@fi.upm.es"^^xsd:string ;
+_:genid13 <http://xmlns.com/foaf/0.1/mbox> "asun@fi.upm.es"^^xsd:string ;
           <http://xmlns.com/foaf/0.1/name> "Asuncion Gomez-Perez"^^xsd:string .
 
 ###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

@@ -26,7 +26,7 @@
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">María Jesús Fernández Ruíz</dc:contributor>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oscar Corcho</dc:contributor>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toño Velasco</dc:contributor>
-        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons 4.0 (BY)</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <dc:title xml:lang="es">Ontología sobre organizaciones públicas (y sus organigramas) en España</dc:title>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-07-25</terms:date>
         <terms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion.html"/>
@@ -136,6 +136,7 @@
 
 
     <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#tipoEntidad">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/org#classification"/>
         <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
         <rdfs:range>
             <owl:Class>
@@ -214,14 +215,7 @@
 
 
     <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#disposicionLegal">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#UnidadOrganica"/>
-                    <rdf:Description rdf:about="http://www.w3.org/ns/org#FormalOrganization"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-02-19</terms:issued>
         <rdfs:comment xml:lang="es">Identificación de la Disposición Legal que regula las competencias de la organización.
 Ejemplo: En el caso del BOE se haría referencia al RD de creación del Organismo como Agencia Estatal: «REAL DECRETO 1495/2007 por el que se crea la Agencia Estatal Boletín Oficial del Estado y se aprueba su estatuto».</rdfs:comment>
@@ -278,15 +272,7 @@ Para la raíz de un nivel de administración, este campo deberá ser 0. Para la 
 
 
     <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#observacionBaja">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#UnidadOrganica"/>
-                    <rdf:Description rdf:about="http://www.w3.org/ns/org#FormalOrganization"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-02-19</terms:issued>
         <rdfs:comment xml:lang="es">Observaciones relacionadas con la baja de la organización.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
@@ -333,6 +319,7 @@ Para la raíz de un nivel de administración, este campo deberá ser 0. Para la 
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#FormalOrganization"/>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-19-02</terms:issued>
         <rdfs:comment xml:lang="es">Organismo creado para satisfacer necesidades de interés general, excluidos los de carácter mercantil o industrial; que tenga personalidad jurídica; que su actividad se financie mayoritariamente con fondos públicos o que su gestión esté sometida al control público o bien que más de la mitad de los miembros de su órgano de administración, de dirección o vigilancia, sean nombrados por el sector público.
+
 Morales, F. J. (2007). La Contratación del Sector Público. Recuperado el 17 de febrero de 2015, de https://books.google.es/books?id=RozAMdGDMDIC&amp;pg=PA1&amp;lpg=PA1&amp;dq=la+contratación+del+sector+publico+f.+javier+escrihuela</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
         <rdfs:label xml:lang="es">Entidad de Derecho Público</rdfs:label>
@@ -426,7 +413,7 @@ Probablemente esta clase será eliminada en posteriores versiones del vocabulari
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
-    <rdf:Description rdf:nodeID="_:genid19">
+    <rdf:Description rdf:nodeID="_:genid13">
         <foaf:mbox rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asun@fi.upm.es</foaf:mbox>
         <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asuncion Gomez-Perez</foaf:name>
     </rdf:Description>
