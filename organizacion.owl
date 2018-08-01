@@ -22,8 +22,8 @@
         <dc:contributor>María Dolores Hernández</dc:contributor>
         <dc:contributor>José Manuel Crespo</dc:contributor>
         <dc:contributor>José María Subero</dc:contributor>
-        <dc:contributor>Toño Velasco</dc:contributor>
         <dc:contributor>Oscar Corcho</dc:contributor>
+        <dc:contributor>Toño Velasco</dc:contributor>
         <dc:contributor>Antonio Ibáñez</dc:contributor>
         <dc:title xml:lang="es">Ontología sobre organizaciones públicas (y sus organigramas) en España</dc:title>
         <dct:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion.rdf"/>
