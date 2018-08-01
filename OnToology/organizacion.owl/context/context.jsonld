@@ -36,8 +36,7 @@
       "@id" : "http://www.w3.org/ns/org#FormalOrganization"
     },
     "observacionBaja" : {
-      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#observacionBaja",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#observacionBaja"
     },
     "nivelJerarquico" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#nivelJerarquico",
@@ -112,6 +111,10 @@
     },
     "preferredNamespaceUri" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "classification" : {
+      "@id" : "http://www.w3.org/ns/org#classification",
+      "@type" : "@id"
     },
     "estadoEntidad" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#estadoEntidad",
