@@ -1,0 +1,38 @@
+<http://datos.madrid.es/recurso/sector-publico/organizacion/fundacion/G83863423> a org:Organization, schema:Organization;
+    skos:prefLabel "ASEPUR-VIA (FUNDACIÓN DE EMPRESARIOS Y POLÍGONOS INDUSTRIALES URTINSA-VERDE INNOVADOR ALCORCÓN)";
+    org:identifier "G83863423";
+    org:identifier "583" ;  #mejor entenderlo mejor
+    org:hasRegisteredSite <http://datos.madrid.es/recurso/sector-publico/organizacion/fundacion/G83863423/domicilio-social> ;
+    org:classification <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clasificacion-fundacion/XXXX> ;  # se debe acordar esta clasificación, tanto la general como la específica
+    org:classification <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clasificacion-fundacion/XXXX> ;  # se debe acordar esta clasificación, tanto la general como la específica
+    org:purpose "El fin de esta fundación es ...."; 
+    org:linkedTo <URI-del-protectorado> ; #se debe generar el listado de URIs del protectorado
+
+    schema:legalName "ASEPUR-VIA (FUNDACIÓN DE EMPRESARIOS Y POLÍGONOS INDUSTRIALES URTINSA-VERDE INNOVADOR ALCORCÓN)";
+    schema:taxID "G83863423" ;
+    schema:location <http://datos.madrid.es/recurso/sector-publico/organizacion/fundacion/G83863423/domicilio-social>;
+    schema:foundingDate "24/06/2004"^^xsd:date ;
+    schema:telephone "XXXXXXXXX";
+    schema:email "XXXXXXX";
+    schema:url "XXXXXXXX" .
+    
+
+<http://datos.madrid.es/recurso/sector-publico/organizacion/fundacion/G83863423/domicilio-social> a Site;
+    org:siteAddress <http://datos.madrid.es/recurso/sector-publico/organizacion/cooperativa/fundacion/G83863423/address> ;
+    locn:address <http://datos.madrid.es/recurso/sector-publico/organizacion/cooperativa/fundacion/G83863423/address> ;
+    schema:address <http://datos.madrid.es/recurso/sector-publico/organizacion/cooperativa/fundacion/G83863423/address> .
+
+<http://datos.madrid.es/recurso/sector-publico/organizacion/fundacion/G83863423/domicilio-social/address> a schema:PostalAddress, locn:Address;
+    schema:streetAddress "c/. Químicas, s/n. Centro Empresas Municipal";
+    schema:addressLocality "Alcorcón";
+    schema:postalCode "28923";
+    schema:addressRegion "Comunidad de Madrid";
+    schema:addressCountry "España";
+    locn:fullAddress "c/. Químicas, s/n";
+    locn:locatorName "Centro Empresas Municipal";
+    locn:postName "Alcorcón";
+    locn:addressArea <https://datos.ign.es/recurso/btn100/municipio/28007>;
+    locn:postCode "28923";
+    locn:adminUnitL2 "Comunidad de Madrid";
+    locn:adminUnitL1 "ES".
+    
