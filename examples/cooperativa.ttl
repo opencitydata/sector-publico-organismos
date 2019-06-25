@@ -1,0 +1,42 @@
+prefix org: <https://www.w3.org/ns/org#>
+prefix locn: <http://www.w3.org/ns/locn#>
+prefix schema: <https://schema.org/>
+
+<http://datos.larioja.es/recurso/sector-publico/organizacion/cooperativa/F26007070> a org:Organization, schema:Organization;
+    skos:prefLabel "SOCIEDAD COOPERATIVA AGROPECUARIA VIRGEN DE VALVANERA";
+    org:identifier "F26007070";
+    org:identifier "26LR-2" ;  #mejor entenderlo mejor
+    org:hasRegisteredSite <http://datos.larioja.es/recurso/sector-publico/organizacion/cooperativa/F26007070/domicilio-social> ;
+    org:classification <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/F> ;
+    org:classification <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/grado/1> ; #debe ser definido y acordado
+    org:classification <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clase/agraria> ; #debe ser definido y acordado
+    org:purpose <http://vocab.linkeddata.es/datosabiertos/kos/comercio/cnae/Cod3/014>;
+#no está claro qué significa en La Rioja CAPSOCEUROS y tipos de Situación actual
+
+    schema:legalName "SOCIEDAD COOPERATIVA AGROPECUARIA VIRGEN DE VALVANERA";
+    schema:taxID "F26007070" ;
+    schema:location <http://datos.larioja.es/recurso/sector-publico/organizacion/cooperativa/F26007070/domicilio-social>;
+    schema:foundingDate "1/10/1979"^^xsd:date ;
+    schema:telephone "XXXXXXXXX";
+    schema:email "XXXXXXX";
+    schema:url "XXXXXXXX" .
+    
+
+<http://datos.larioja.es/recurso/sector-publico/organizacion/cooperativa/F26007070/domicilio-social> a Site;
+    org:siteAddress <http://datos.larioja.es/recurso/sector-publico/organizacion/cooperativa/F26007070/domicilio-social/address> ;
+    locn:address <http://datos.larioja.es/recurso/sector-publico/organizacion/cooperativa/F26007070/domicilio-social/address> ;
+    schema:address <http://datos.larioja.es/recurso/sector-publico/organizacion/cooperativa/F26007070/domicilio-social/address> .
+
+<http://datos.larioja.es/recurso/sector-publico/organizacion/cooperativa/F26007070/domicilio-social/address> a schema:PostalAddress, locn:Address;
+    schema:streetAddress "C/ MARQUES DE MURRIETA 3 ENTR.";
+    schema:addressLocality "Logroño";
+    schema:postalCode "26005";
+    schema:addressRegion "La Rioja";
+    schema:addressCountry "España";
+    locn:fullAddress "C/ MARQUES DE MURRIETA 3 ENTR.";
+    locn:postName "Logroño";
+    locn:addressArea <https://datos.ign.es/recurso/btn100/municipio/26089>;
+    locn:postCode "26005";
+    locn:adminUnitL2 "La Rioja";
+    locn:adminUnitL1 "ES".
+
