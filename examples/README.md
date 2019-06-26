@@ -4,6 +4,6 @@ También se hace uso de los vocabularios de representación de direcciones posta
 
 Ejemplos actuales:
 
-- [Fundación](./examples/fundacion.ttl)
+- [Fundación](./fundacion.ttl)
 
-- [Cooperativa](./examples/cooperativa.ttl)
+- [Cooperativa](./cooperativa.ttl)
