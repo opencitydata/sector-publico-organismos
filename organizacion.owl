@@ -16,7 +16,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#">
-        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#1.1.0"/>
+        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#1.1.1"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/org#"/>
         <vann:preferredNamespaceUri>http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#</vann:preferredNamespaceUri>
         <dc:contributor>María Dolores Hernández</dc:contributor>
@@ -36,7 +36,7 @@
         <dc:contributor>Carlos Jiménez</dc:contributor>
         <rdfs:comment xml:lang="es">Esta ontología extiende la ontología del W3C para organizaciones (W3C Organization Ontology), para la representación de organizaciones públicas en España, así como aspectos relacionados con los organigramas dentro de dichas organizaciones. Está basada en una versión previa de la ontología cuya URI era http://datos.gob.es/def/sector-publico/organizacion y que no llegó a ser publicada</rdfs:comment>
         <dct:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion.html"/>
-        <dct:date>2018-07-25</dct:date>
+        <dct:date>2021-07-07</dct:date>
         <dc:contributor>David Rey Jordán</dc:contributor>
     </owl:Ontology>
     
@@ -99,7 +99,7 @@
             </owl:Class>
         </rdfs:range>
         <dct:issued>2015-02-19</dct:issued>
-        <rdfs:comment xml:lang="es">Estatus o situación jurídico/funcional de una organización, de acuerdo con el SKOS Concept Scheme de estados de entidad definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/estado-entidad</rdfs:comment>
+        <rdfs:comment xml:lang="es">Estatus o situación jurídico/funcional de una organización, de acuerdo con el SKOS Concept Scheme de estados de entidad definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
         <rdfs:label xml:lang="es">Estado</rdfs:label>
     </owl:ObjectProperty>
@@ -122,7 +122,7 @@
             </owl:Class>
         </rdfs:range>
         <dct:issued>2015-02-19</dct:issued>
-        <rdfs:comment xml:lang="es">Nivel territorial de administración al que pertenece la organización, de acuerdo con el SKOS Concept Scheme de niveles de administración definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Nivel territorial de administración al que pertenece la organización, de acuerdo con el SKOS Concept Scheme de niveles de administración definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/nivel-administracion.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
         <rdfs:label xml:lang="es">Nivel de Administración</rdfs:label>
     </owl:ObjectProperty>
@@ -387,10 +387,7 @@ Probablemente esta clase será eliminada en posteriores versiones del vocabulari
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
-    <rdf:Description>
-        <foaf:mbox>asun@fi.upm.es</foaf:mbox>
-        <foaf:name>Asuncion Gomez-Perez</foaf:name>
-    </rdf:Description>
+
 </rdf:RDF>
 
 
