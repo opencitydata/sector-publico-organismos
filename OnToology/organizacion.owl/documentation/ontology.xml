@@ -1,39 +1,39 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
      xml:base="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:org="http://www.w3.org/ns/org#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#">
-        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#1.1.0"/>
+        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#1.1.1"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/org#"/>
-        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antonio Ibáñez</dc:contributor>
-        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carlos Jiménez</dc:contributor>
-        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">David Rey Jordán</dc:contributor>
-        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imanol Argüeso</dc:contributor>
-        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">José Manuel Crespo</dc:contributor>
-        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">José María Subero</dc:contributor>
-        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martín Alvarez</dc:contributor>
-        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">María Dolores Hernández</dc:contributor>
-        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">María Jesús Fernández Ruíz</dc:contributor>
-        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oscar Corcho</dc:contributor>
-        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toño Velasco</dc:contributor>
-        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
+        <dc:contributor>Antonio Ibáñez</dc:contributor>
+        <dc:contributor>Carlos Jiménez</dc:contributor>
+        <dc:contributor>David Rey Jordán</dc:contributor>
+        <dc:contributor>Imanol Argüeso</dc:contributor>
+        <dc:contributor>José Manuel Crespo</dc:contributor>
+        <dc:contributor>José María Subero</dc:contributor>
+        <dc:contributor>Martín Alvarez</dc:contributor>
+        <dc:contributor>María Dolores Hernández</dc:contributor>
+        <dc:contributor>María Jesús Fernández Ruíz</dc:contributor>
+        <dc:contributor>Oscar Corcho</dc:contributor>
+        <dc:contributor>Toño Velasco</dc:contributor>
+        <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <dc:title xml:lang="es">Ontología sobre organizaciones públicas (y sus organigramas) en España</dc:title>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-07-25</terms:date>
+        <terms:date>2021-07-07</terms:date>
         <terms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion.html"/>
         <terms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion.rdf"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-02-19</terms:issued>
-        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orges</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#</vann:preferredNamespaceUri>
+        <terms:issued>2015-02-19</terms:issued>
+        <vann:preferredNamespacePrefix>orges</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#</vann:preferredNamespaceUri>
         <rdfs:comment xml:lang="es">Esta ontología extiende la ontología del W3C para organizaciones (W3C Organization Ontology), para la representación de organizaciones públicas en España, así como aspectos relacionados con los organigramas dentro de dichas organizaciones. Está basada en una versión previa de la ontología cuya URI era http://datos.gob.es/def/sector-publico/organizacion y que no llegó a ser publicada</rdfs:comment>
     </owl:Ontology>
     
@@ -51,10 +51,59 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasFormat -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasFormat"/>
+    
+
+
     <!-- http://purl.org/dc/terms/issued -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
     
 
 
@@ -76,7 +125,7 @@
     <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#ambitoCompetencias">
         <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
         <rdfs:range rdf:resource="http://dbpedia.org/ontology/GovernmentalAdministrativeRegion"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-02-19</terms:issued>
+        <terms:issued>2015-02-19</terms:issued>
         <rdfs:comment xml:lang="es">Ámbito territorial de ejercicio de competencias de una organización.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
         <rdfs:label xml:lang="es">Ámbito de Competencias</rdfs:label>
@@ -100,8 +149,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:range>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-02-19</terms:issued>
-        <rdfs:comment xml:lang="es">Estatus o situación jurídico/funcional de una organización, de acuerdo con el SKOS Concept Scheme de estados de entidad definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/estado-entidad</rdfs:comment>
+        <terms:issued>2015-02-19</terms:issued>
+        <rdfs:comment xml:lang="es">Estatus o situación jurídico/funcional de una organización, de acuerdo con el SKOS Concept Scheme de estados de entidad definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
         <rdfs:label xml:lang="es">Estado</rdfs:label>
     </owl:ObjectProperty>
@@ -124,8 +173,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:range>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-02-19</terms:issued>
-        <rdfs:comment xml:lang="es">Nivel territorial de administración al que pertenece la organización, de acuerdo con el SKOS Concept Scheme de niveles de administración definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion.</rdfs:comment>
+        <terms:issued>2015-02-19</terms:issued>
+        <rdfs:comment xml:lang="es">Nivel territorial de administración al que pertenece la organización, de acuerdo con el SKOS Concept Scheme de niveles de administración definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/nivel-administracion.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
         <rdfs:label xml:lang="es">Nivel de Administración</rdfs:label>
     </owl:ObjectProperty>
@@ -149,7 +198,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:range>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-07-25</terms:issued>
+        <terms:issued>2018-07-25</terms:issued>
         <rdfs:comment xml:lang="es">Tipo de entidad, de acuerdo con el SKOS Concept Scheme de tipos de entidad definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/tipo-entidad</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
         <rdfs:label xml:lang="es">tipo de entidad</rdfs:label>
@@ -164,7 +213,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/org#subOrganizationOf"/>
         <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
         <rdfs:range rdf:resource="http://www.w3.org/ns/org#Organization"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-02-19</terms:issued>
+        <terms:issued>2015-02-19</terms:issued>
         <rdfs:comment xml:lang="es">Organización, al nivel máximo de jerarquía de que depende otra organización.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
         <rdfs:label xml:lang="es">Unidad Orgánica Raíz</rdfs:label>
@@ -203,7 +252,7 @@
 
     <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#diasInhabiles">
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#Oficina"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-02-19</terms:issued>
+        <terms:issued>2015-02-19</terms:issued>
         <rdfs:comment xml:lang="es">Designa los días inhábiles, que se escriben como una frase en lenguaje natural. Ejemplo: «Domingos y festivos de ámbito nacional, autonómico o local.».</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
         <rdfs:label xml:lang="es">Días Inhábiles</rdfs:label>
@@ -216,7 +265,7 @@
 
     <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#disposicionLegal">
         <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-02-19</terms:issued>
+        <terms:issued>2015-02-19</terms:issued>
         <rdfs:comment xml:lang="es">Identificación de la Disposición Legal que regula las competencias de la organización.
 Ejemplo: En el caso del BOE se haría referencia al RD de creación del Organismo como Agencia Estatal: «REAL DECRETO 1495/2007 por el que se crea la Agencia Estatal Boletín Oficial del Estado y se aprueba su estatuto».</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
@@ -230,7 +279,7 @@ Ejemplo: En el caso del BOE se haría referencia al RD de creación del Organism
 
     <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#horarioAtencion">
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#Oficina"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-02-19</terms:issued>
+        <terms:issued>2015-02-19</terms:issued>
         <rdfs:comment xml:lang="es">Define el horario de atención al ciudadano de la organización.
 El horario de atención se trata como una frase en lenguaje natural. Ejemplo: «Horario: De lunes a viernes de 8:30 a 14:30h. y de 16:10 a 18:30h. Sábados de 9:10 a 13:30. Horario de verano: … ».</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
@@ -245,7 +294,7 @@ El horario de atención se trata como una frase en lenguaje natural. Ejemplo: «
     <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#identificadorExterno">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
         <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-02-19</terms:issued>
+        <terms:issued>2015-02-19</terms:issued>
         <rdfs:comment xml:lang="es">Código externo que designa una organización según la codificación propia de la fuente de provisión.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://datos.gob.es/def/sector-publico/organizacion#"/>
         <rdfs:label xml:lang="es">IdentificadorExterno</rdfs:label>
@@ -259,7 +308,7 @@ El horario de atención se trata como una frase en lenguaje natural. Ejemplo: «
     <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#nivelJerarquico">
         <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-02-19</terms:issued>
+        <terms:issued>2015-02-19</terms:issued>
         <rdfs:comment xml:lang="es">Secuencial que identifica el nivel jerárquico relativo de la organización dentro de la entidad a la que pertenece.
 Para la raíz de un nivel de administración, este campo deberá ser 0. Para la unidad principal (de máximo nivel) de cualquier Ministerio, Comunidad Autónoma o Entidad Local el campo tomará el valor 1. Más allá de esto, el número se irá incrementando según convenga.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
@@ -273,7 +322,7 @@ Para la raíz de un nivel de administración, este campo deberá ser 0. Para la 
 
     <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#observacionBaja">
         <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-02-19</terms:issued>
+        <terms:issued>2015-02-19</terms:issued>
         <rdfs:comment xml:lang="es">Observaciones relacionadas con la baja de la organización.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
         <rdfs:label xml:lang="es">Observación de Baja</rdfs:label>
@@ -285,7 +334,7 @@ Para la raíz de un nivel de administración, este campo deberá ser 0. Para la 
 
 
     <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#otroContacto">
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-02-19</terms:issued>
+        <terms:issued>2015-02-19</terms:issued>
         <rdfs:comment xml:lang="es">Cualquier dato de contacto adicional que no se encuentre definido en el DIR3.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
         <rdfs:label xml:lang="es">Otro Contacto</rdfs:label>
@@ -317,7 +366,7 @@ Para la raíz de un nivel de administración, este campo deberá ser 0. Para la 
 
     <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#EntidadDerechoPublico">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#FormalOrganization"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-19-02</terms:issued>
+        <terms:issued>2015-19-02</terms:issued>
         <rdfs:comment xml:lang="es">Organismo creado para satisfacer necesidades de interés general, excluidos los de carácter mercantil o industrial; que tenga personalidad jurídica; que su actividad se financie mayoritariamente con fondos públicos o que su gestión esté sometida al control público o bien que más de la mitad de los miembros de su órgano de administración, de dirección o vigilancia, sean nombrados por el sector público.
 
 Morales, F. J. (2007). La Contratación del Sector Público. Recuperado el 17 de febrero de 2015, de https://books.google.es/books?id=RozAMdGDMDIC&amp;pg=PA1&amp;lpg=PA1&amp;dq=la+contratación+del+sector+publico+f.+javier+escrihuela</rdfs:comment>
@@ -332,7 +381,7 @@ Morales, F. J. (2007). La Contratación del Sector Público. Recuperado el 17 de
 
     <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#Oficina">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-19-02</terms:issued>
+        <terms:issued>2015-19-02</terms:issued>
         <rdfs:comment xml:lang="es">Oficina de registro, información o tramitación que las distintas Administraciones Públicas ponen a disposición del Ciudadano.
 
 Probablemente esta clase será eliminada en posteriores versiones del vocabulario</rdfs:comment>
@@ -347,7 +396,7 @@ Probablemente esta clase será eliminada en posteriores versiones del vocabulari
 
     <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#UGEP">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-02-19</terms:issued>
+        <terms:issued>2015-02-19</terms:issued>
         <rdfs:comment xml:lang="es">Las UGEP son las unidades de rango inferior o independiente que queden excluidas del ámbito de una org:FormalUnit
 
 Probablemente esta clase será eliminada en posteriores versiones del vocabulario</rdfs:comment>
@@ -362,7 +411,7 @@ Probablemente esta clase será eliminada en posteriores versiones del vocabulari
 
     <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#UnidadOrganica">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-19-02</terms:issued>
+        <terms:issued>2015-19-02</terms:issued>
         <rdfs:comment xml:lang="es">Unidad Orgánica con un nivel jerárquico mayor a 1, que depende de una Entidad de Derecho Público.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
         <rdfs:label xml:lang="es">Unidad Orgánica</rdfs:label>
@@ -413,14 +462,10 @@ Probablemente esta clase será eliminada en posteriores versiones del vocabulari
     <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     </owl:NamedIndividual>
-    <rdf:Description rdf:nodeID="_:genid13">
-        <foaf:mbox rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asun@fi.upm.es</foaf:mbox>
-        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asuncion Gomez-Perez</foaf:name>
-    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
 
 
