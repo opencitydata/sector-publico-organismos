@@ -17,6 +17,7 @@ Las versiones iniciales de este vocabulario fueron mantenidas en el repositorio 
   * Actualización de rangos incorrectos en las Object Properties que tenían referencias a skos:ConceptScheme.
   * Modificación de los nombres de algunas propiedades, como estado, que ahora se convierte a estadoEntidad
   * Reorganización de la jerarquía de propiedades (unidadRaiz es ahora subclase de org:unitOf)
+* [07/07/2021] Modificación de documentación de algunas propiedades, que apuntaban a skos:ConceptSchemes antiguos.
 
 ### Cambios propuestos
 Por un lado, se trabajará en mejorar la documentación del vocabulario, y también se modificarán más elementos teniendo en cuenta las implantaciones realizadas por diversos ayuntamientos
