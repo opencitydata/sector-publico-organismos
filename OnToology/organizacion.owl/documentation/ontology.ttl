@@ -127,7 +127,7 @@
                           rdf:type owl:Class
                         ] ;
              <http://purl.org/dc/terms/issued> "2018-07-25" ;
-             rdfs:comment "Tipo de entidad, de acuerdo con el SKOS Concept Scheme de tipos de entidad definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/tipo-entidad"@es ;
+             rdfs:comment "Tipo de entidad, de acuerdo con el SKOS Concept Scheme de tipos de entidad definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad"@es ;
              rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#> ;
              rdfs:label "tipo de entidad"@es .
 
