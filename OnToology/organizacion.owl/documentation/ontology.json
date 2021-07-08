@@ -445,7 +445,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
-    "@value" : "Tipo de entidad, de acuerdo con el SKOS Concept Scheme de tipos de entidad definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/tipo-entidad"
+    "@value" : "Tipo de entidad, de acuerdo con el SKOS Concept Scheme de tipos de entidad definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.w3.org/ns/org#Organization"

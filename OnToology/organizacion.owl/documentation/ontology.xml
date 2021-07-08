@@ -199,7 +199,7 @@
             </owl:Class>
         </rdfs:range>
         <terms:issued>2018-07-25</terms:issued>
-        <rdfs:comment xml:lang="es">Tipo de entidad, de acuerdo con el SKOS Concept Scheme de tipos de entidad definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/tipo-entidad</rdfs:comment>
+        <rdfs:comment xml:lang="es">Tipo de entidad, de acuerdo con el SKOS Concept Scheme de tipos de entidad definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
         <rdfs:label xml:lang="es">tipo de entidad</rdfs:label>
     </owl:ObjectProperty>

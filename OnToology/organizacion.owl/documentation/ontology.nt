@@ -129,7 +129,7 @@ _:genid11 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/d
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#tipoEntidad> <http://purl.org/dc/terms/issued> "2018-07-25" .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#tipoEntidad> <http://www.w3.org/2000/01/rdf-schema#comment> "Tipo de entidad, de acuerdo con el SKOS Concept Scheme de tipos de entidad definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/tipo-entidad"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#tipoEntidad> <http://www.w3.org/2000/01/rdf-schema#comment> "Tipo de entidad, de acuerdo con el SKOS Concept Scheme de tipos de entidad definido en http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#tipoEntidad> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#> .
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#tipoEntidad> <http://www.w3.org/2000/01/rdf-schema#label> "tipo de entidad"@es .
 # 
